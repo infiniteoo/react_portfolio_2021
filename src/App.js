@@ -1,11 +1,19 @@
-import './App.css';
+import React from 'react';
+import NavBar from './components/NavBar/NavBar'
 
-function App() {
-  return (
-    
-    <h1>hello</h1>
+class App extends React.Component {
 
-  );
+    render(){
+        return (
+
+            <div>
+               <NavBar/>
+            </div>
+
+
+        )
+    }
+
 }
 
 export default App;
