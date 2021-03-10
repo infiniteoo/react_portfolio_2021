@@ -1,11 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import React from "react";
+import PropTypes from "prop-types";
+import { makeStyles } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
+import Home from "../Home/Home";
+import About from "../About/About";
+import Examples from "../Examples/Examples";
+import Skills from "../Skills/Skills";
+import Connect from "../Connect/Connect";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -36,7 +41,7 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `nav-tab-${index}`,
-    'aria-controls': `nav-tabpanel-${index}`,
+    "aria-controls": `nav-tabpanel-${index}`,
   };
 }
 
@@ -55,7 +60,7 @@ function LinkTab(props) {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: "theme.palette.background.paper",
   },
 }));
 
@@ -76,30 +81,28 @@ export default function NavTabs() {
           onChange={handleChange}
           aria-label="nav tabs example"
         >
-          <LinkTab label="Page One" href="/drafts" {...a11yProps(0)} />
-          <LinkTab label="Page Two" href="/trash" {...a11yProps(1)} />
-          <LinkTab label="Page Three" href="/spam" {...a11yProps(2)} />
-          <LinkTab label="Page Four" href="/contact" {...a11yProps(3)} />
-          <LinkTab label="Page Five" href="/examples" {...a11yProps(4)} />
-
+          <LinkTab label="Home" href="/home" {...a11yProps(0)} />
+          <LinkTab label="About" href="/about" {...a11yProps(1)} />
+          <LinkTab label="Skills" href="/skills" {...a11yProps(2)} />
+          <LinkTab label="Examples" href="/examples" {...a11yProps(3)} />
+          <LinkTab label="Connect" href="/connect" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Page One
+        <Home />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Page Two
+        <About />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Page Three
+        <Skills />
       </TabPanel>
-      <TabPanel value={value} index={2}>
-        Page Three
+      <TabPanel value={value} index={3}>
+        <Examples />
       </TabPanel>
-      <TabPanel value={value} index={2}>
-        Page Three
+      <TabPanel value={value} index={4}>
+        <Connect />
       </TabPanel>
-      
     </div>
   );
 }
