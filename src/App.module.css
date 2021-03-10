@@ -1,0 +1,237 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav-name {
+    color: white;
+}
+
+h1 {
+    font-size: 2.7rem;
+    text-align: center;
+    font-family: 'Goldman', cursive;
+}
+
+#barsrow {
+    font-size: 1.2rem;
+    color: white;
+}
+
+hr {
+    color: white;
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
+.text-6 {
+    font-size: 1.3rem !important;
+    font-size: 1.50rem !important;
+    color: white;
+}
+
+.text-5 {
+    font-size: 1.2rem !important;
+    font-size: 1.3125rem !important;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 5.6rem;
+    color: grey;
+}
+
+#address, #phonenumber, #email {
+    font-size: 1.3rem;
+}
+
+.fitScreen {
+    height: 100%;
+    background-color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 1.2rem;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 1rem;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #818181;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 10px;
+}
+
+#intro-section {
+    background-image: url("../src/img/code.jpg");
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 1rem;
+    margin: 10px;
+}
+
+#intro-box {
+    text-align: center;
+    background-color: cornflowerblue;
+    box-shadow: 5px 10px 18px white;
+}
+
+#troy-text {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    margin-top: 23rem;
+}
+
+.color-span {
+    color: #4C5270;
+}
+
+#intro-span {
+    color: black;
+    background-color: white;
+}
+
+.social-icons {
+    margin: 0;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.social-icons li {
+    margin: 0px 6px 4px;
+    padding: 0;
+    overflow: visible;
+}
+
+.social-icons li a {
+    display: block;
+    height: 1.9rem;
+    line-height: 1.9rem;
+    width: 1.7rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #4d555a;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.social-icons li i {
+    line-height: inherit;
+}
+
+.social-icons.social-icons-sm li {
+    margin: 0px 4px 4px;
+}
+
+.social-icons.social-icons-sm li a {
+    font-size: 1.2rem;
+}
+
+.social-icons.social-icons-lg li a {
+    width: 2.1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.7rem;
+}
+
+.social-icons.social-icons-light li a {
+    color: #eee;
+}
+
+.social-icons.social-icons-muted li a {
+    color: #aab1b8;
+}
+
+.fa-6 {
+    font-size: 10em;
+    float: right;
+    color: grey;
+}
+
+.social-icons li:hover a {
+    color: #999;
+}
+
+.main {
+    margin-left: 6.4rem;
+    font-size: 1.7rem;
+    padding: 0px 1rem;
+    width: 95%;
+}
+
+#bio-section {
+    border: 5px solid cornflowerblue;
+    border-radius: 1px;
+    border-right: none;
+}
+
+#skills-section {
+    border-left: 5px solid white;
+    border-radius: 1px;
+}
+
+#resume-exp {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidenav {
+        padding-top: 1.3rem;
+        width: 12rem;
+    }
+    .main {
+        width: 86%;
+        margin-left: 10rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+    #user-circle {
+        font-size: 13rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sidenav {
+        padding-top: 1.3rem;
+        width: 10rem;
+    }
+    .main {
+        width: 116%;
+        margin-left: 8.1rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+    #user-circle {
+        font-size: 13rem;
+    }
+    #nav-name {
+        font-size: 1.5rem;
+    }
+    .sidenav a {
+        font-size: 1.6rem;
+    }
+    .vh-100 {
+        height: 150vh;
+    }
+}
