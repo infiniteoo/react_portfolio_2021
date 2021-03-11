@@ -23,15 +23,16 @@ font-family: "Roboto Condensed", sans-serif !important;
 
 nav {
   z-index: 2;
+  
 }
 
-.logo {
+/* .logo {
   width: 16.25rem;
-}
+} */
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
-  font-size: .8rem;
+  font-size: 1rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -152,7 +153,7 @@ nav ul li {
 }
 
 .profile-img {
-  width: 16rem;
+  width: 32rem;
   border-radius: 50%;
   padding: .3rem;
   border: 1px solid var(--primary-orange);
