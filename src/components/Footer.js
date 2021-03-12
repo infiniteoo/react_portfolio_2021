@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -7,7 +8,7 @@ import {
   RedditShareButton,
   RedditIcon,
   LinkedinShareButton,
-  LinkedinIcon
+  LinkedinIcon,
 } from "react-share";
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Boise, Idaho 420 Leaf St.</p>
+              <p>Boise, Idaho</p>
             </div>
             <div className="d-flex">
               <a href="tel:763-220-0042">+1(763)220-0042</a>
@@ -29,18 +30,55 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
-                <br />
-                <a className="footer-nav">About me</a>
-                <br />
-                <a className="footer-nav">Services</a>
+                <Link smooth={true} to="home" offset={-60} className="nav-link">
+                  Home
+                </Link>
+
+                <Link
+                  smooth={true}
+                  to="about"
+                  offset={-60}
+                  className="nav-link"
+                >
+                  About Me
+                </Link>
+
+                <Link
+                  smooth={true}
+                  to="services"
+                  offset={-60}
+                  className="nav-link"
+                >
+                  Services
+                </Link>
               </div>
               <div className="col">
-                <a className="footer-nav">Experience</a>
-                <br />
-                <a className="footer-nav">Portfolio</a>
-                <br />
-                <a className="footer-nav">Contacts</a>
+                <Link
+                  smooth={true}
+                  to="experience"
+                  offset={-60}
+                  className="nav-link"
+                >
+                  Experience
+                </Link>
+
+                <Link
+                  smooth={true}
+                  to="portfolio"
+                  offset={-60}
+                  className="nav-link"
+                >
+                  Portfolio
+                </Link>
+
+                <Link
+                  smooth={true}
+                  to="contacts"
+                  offset={-60}
+                  className="nav-link"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
@@ -83,7 +121,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
