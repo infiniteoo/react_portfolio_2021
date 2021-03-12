@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>Boise, Idaho 420 Leaf St. #223</p>
+              <p>Boise, Idaho 420 Leaf St.</p>
             </div>
             <div className="d-flex">
               <a href="tel:763-220-0042">+1(763)220-0042</a>

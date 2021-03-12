@@ -13,17 +13,19 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-            Hello! I am Andrew. I have been developing websites for over 5 years. I'm Full-Stack Web Developer. Technologies I use is MERN(MongoDB, Express, ReactJS and NodeJS).
+            Greetings!  My name is Troy Dorman, and I have been an avid computer programmer my whole life. Since purchasing our first Tandy 1000 at the age of nine and discovering QBasic, to my high school programming course in Pascal, to my self-taught fascination with Java and JavaScript over the past seven years, writing code is what I love to do.  But it wasn't until the past two years did I decide to get serious and go pro.
 
-            I create responsive websites that are displayed on all devices desktops and smartphones.
+            I recently graduated in the top five percentile of the University of Minnesota's Full Stack Coding Bootcamp with an A+ average.  
+            
+            Now, I am a Full-Stack Web Developer, utilizing the MERN paradigm: MongoDB, Express, ReactJS and NodeJS to create responsive websites that are seemlessly integrated on all platforms, desktops and mobile devices.  Let me do this for you!
 
-            Of course, before I begin developing any webapp, Landing Page, Business Website or E-commerce, I need to have a ready-made project layout (sketch).
+            Located in Boise, Idaho, I am ready to take on any project, big or small, utilizing the years of technological experience I have accrued.
 
-            And I’m ready to do this for you, before we start developing your website, we will discuss all the  details of your niche with you, I will conduct a survey of your competitors and make a list of their advantages and weaknesses.
+            I am available right now to join your team and help build revolutionary platforms for your clients.  I am highly motivated, have a positive attitude, an unbridled passion for learning new technologies, and am extremely eager to show you what I can do!   
 
-            All this is necessary to give your customers something that your competitors do not provide, or to present it too, but better!
+            
 
-            After the website is finished and ready to deploy and sell a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in  Google Adwords and Facebook!
+            
           </p>
         </div>
       </div>
