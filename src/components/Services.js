@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faCamera, faDesktop, faFileCode, faMusic } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
@@ -13,7 +12,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
               <h3>Web Design</h3>
-              <p>I approach each project individually and always focus on the result.</p>
+              <p>Before a single line of code is written, I'll meticulously assemble and strategize the optimal technologies and hardware requirements for your project. </p>
             </div>
           </div>
           {/* - */}
@@ -22,25 +21,25 @@ const Services = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
 
               <h3>Web Development</h3>
-              <p>Your website will be build with an new proven technologies.</p>
+              <p>Utilizing the latest technologies, I'll build a seamlessly integrated multi-platform website that'll look great on your desktop or a smartphone.</p>
             </div>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faMusic} size="2x" /></div>
 
-              <h3>Facebook Ads SMM</h3>
-              <p>Your potential clients well see your services or product on Facebook</p>
+              <h3>Audio Production</h3>
+              <p>From Podcast production and editing, to radio commericals and imaging, I bring 20+ years of experience as an audio engineer.</p>
             </div>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faCamera} size="2x" /></div>
 
-              <h3>Google Ads</h3>
-              <p>Your service or product will appear at the top of the Google search</p>.
+              <h3>Photography</h3>
+              <p>From weddings, to sporting events, to concerts and community events, I can document any occasion with the highest quality and latest DSLR technology and lenses.</p>
               </div>
           </div>
         </div>
