@@ -1,8 +1,8 @@
 import React from "react";
 import netflix from "../images/covid-tracker_ss.png";
 import cityGuide from "../images/hidden_gems_ss.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+import portfolio from "../images/workout_tracker_ss.png";
+import taskManager from "../images/budget_planner_ss.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -66,10 +66,10 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
+        <p>NoSQL-powered workout tracker which allows the user to view, create, and track daily workouts.  Also features data-driven pie, bar, and line charts for visualization. </p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://aqueous-reef-38770.herokuapp.com/", "_blank")}>https://aqueous-reef-38770.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/infiniteoo/nosql_workout_tracker/", "_blank")}>https://github.com/infiniteoo/nosql_workout_tracker/</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -89,10 +89,10 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={taskManager} alt=" React and Redux Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
+        <p>Budget tracker which features offline access and visualized data.  Also utilizes IndexedDB, Cache API, Service Workers and MongoDB.</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://fast-inlet-48607.herokuapp.com/", "_blank")}>https://fast-inlet-48607.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/infiniteoo/homework_week_19_budget_tracker", "_blank")}>https://github.com/infiniteoo/homework_week_19_budget_tracker</a>
       </>
     )
     PopupboxManager.open({ content })
