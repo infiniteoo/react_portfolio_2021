@@ -1,6 +1,6 @@
 import React from "react";
-import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
+import netflix from "../images/covid-tracker_ss.png";
+import cityGuide from "../images/hidden_gems_ss.png";
 import portfolio from "../images/portfolio.png";
 import taskManager from "../images/task-manager.png";
 // FONTAWESOME IMPORTS
@@ -18,9 +18,12 @@ const Pofrfolio = () => {
   const openPopupboxNetflix = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+        <img className="portfolio-image-popupbox" src={netflix} alt="Covid-19 Data Tracker" />
+        
+        <p>Real-time COVID-19 data tracker written with the MERN stack.</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://covid-track3r-app.herokuapp.com/", "_blank")}>https://covid-track3r-app.herokuapp.com/</a>
+        <br />
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ZiWang55/Covid_19_Tracker")}>https://github.com/ZiWang55/Covid_19_Tracker</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -34,16 +37,16 @@ const Pofrfolio = () => {
     fadeIn: true,
     fadeInSpeed: 500
   }
-
+  
   // City Guide App
   const openPopupboxCityGuide = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.com/", "_blank")}>https://city-guide-app-project.herokuapp.com/</a>
+        <p>Interactive Google Map with persistent backend and Facebook OAuth authentication.</p>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://ancient-waters-90063.herokuapp.com/", "_blank")}>https://ancient-waters-90063.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/infiniteoo/google_maps_and_facebook_auth_project2", "_blank")}>https://github.com/infiniteoo/google_maps_and_facebook_auth_project2</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -85,7 +88,7 @@ const Pofrfolio = () => {
   const openPopupboxTaskManager = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={taskManager} alt="Task Manager React and Redux Project..." />
+        <img className="portfolio-image-popupbox" src={taskManager} alt=" React and Redux Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
         <br />
