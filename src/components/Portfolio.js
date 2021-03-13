@@ -21,9 +21,9 @@ const Pofrfolio = () => {
         <img className="portfolio-image-popupbox" src={netflix} alt="Covid-19 Data Tracker" />
         
         <p>Real-time COVID-19 data tracker written with the MERN stack.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://covid-track3r-app.herokuapp.com/", "_blank")}>https://covid-track3r-app.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://covid-track3r-app.herokuapp.com/", "_blank")}>https://covid-track3r-app.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/ZiWang55/Covid_19_Tracker")}>https://github.com/ZiWang55/Covid_19_Tracker</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/ZiWang55/Covid_19_Tracker")}>https://github.com/ZiWang55/Covid_19_Tracker</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -44,9 +44,9 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
         <p>Interactive Google Map with persistent backend and Facebook OAuth authentication.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://ancient-waters-90063.herokuapp.com/", "_blank")}>https://ancient-waters-90063.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://ancient-waters-90063.herokuapp.com/", "_blank")}>https://ancient-waters-90063.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/infiniteoo/google_maps_and_facebook_auth_project2", "_blank")}>https://github.com/infiniteoo/google_maps_and_facebook_auth_project2</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/google_maps_and_facebook_auth_project2", "_blank")}>https://github.com/infiniteoo/google_maps_and_facebook_auth_project2</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -67,9 +67,9 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
         <p>NoSQL-powered workout tracker which allows the user to view, create, and track daily workouts.  Also features data-driven pie, bar, and line charts for visualization. </p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://aqueous-reef-38770.herokuapp.com/", "_blank")}>https://aqueous-reef-38770.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://aqueous-reef-38770.herokuapp.com/", "_blank")}>https://aqueous-reef-38770.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/infiniteoo/nosql_workout_tracker/", "_blank")}>https://github.com/infiniteoo/nosql_workout_tracker/</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/nosql_workout_tracker/", "_blank")}>https://github.com/infiniteoo/nosql_workout_tracker/</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -90,9 +90,9 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={taskManager} alt=" React and Redux Project..." />
         <p>Budget tracker which features offline access and visualized data.  Also utilizes IndexedDB, Cache API, Service Workers and MongoDB.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://fast-inlet-48607.herokuapp.com/", "_blank")}>https://fast-inlet-48607.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://fast-inlet-48607.herokuapp.com/", "_blank")}>https://fast-inlet-48607.herokuapp.com/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/infiniteoo/homework_week_19_budget_tracker", "_blank")}>https://github.com/infiniteoo/homework_week_19_budget_tracker</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/homework_week_19_budget_tracker", "_blank")}>https://github.com/infiniteoo/homework_week_19_budget_tracker</a>
       </>
     )
     PopupboxManager.open({ content })
