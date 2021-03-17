@@ -1,8 +1,8 @@
 import React from "react";
-import netflix from "../images/covid-tracker_ss.png";
+import netflix from "../images/covid_2.png";
 import cityGuide from "../images/hidden_gems_ss.png";
 import portfolio from "../images/workout_tracker_ss.png";
-import taskManager from "../images/budget_planner_ss.png";
+import taskManager from "../images/pizza.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -89,10 +89,10 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={taskManager} alt=" React and Redux Project..." />
-        <p>Budget tracker which features offline access and visualized data.  Also utilizes IndexedDB, Cache API, Service Workers and MongoDB.</p>
-        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://fast-inlet-48607.herokuapp.com/", "_blank")}>https://fast-inlet-48607.herokuapp.com/</a>
+        <p>Online pizza ordering website built in React and deployed with Firebase.</p>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://fast-inlet-48607.herokuapp.com/", "_blank")}>https://pizza-2025b.web.app/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/homework_week_19_budget_tracker", "_blank")}>https://github.com/infiniteoo/homework_week_19_budget_tracker</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/homework_week_19_budget_tracker", "_blank")}>https://github.com/infiniteoo/react_pizza</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -118,6 +118,11 @@ const Pofrfolio = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
+          <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
+            <img className="portfolio-image" src={taskManager} alt="Troy Dorman Portfolio Examples" />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
             <img className="portfolio-image" src={cityGuide} alt="Troy Dorman Portfolio Examples" />
@@ -131,11 +136,7 @@ const Pofrfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxTaskManager}>
-            <img className="portfolio-image" src={taskManager} alt="Troy Dorman Portfolio Examples" />
-            <div className="overflow"></div>
-            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
-          </div>
+          
         </div>
       </div>
       <PopupboxContainer {...popupboxConfigNetflix} />

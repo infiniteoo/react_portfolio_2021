@@ -1,5 +1,5 @@
 {
-  "homepage": "https://8020coding.github.io/portfolio-project-tutorial/",
+  "homepage": "https://infiniteoo.github.io/react_portfolio_2021/",
   "name": "portfolio-project",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,6 @@
     "bootstrap": "^4.6.0",
     "emailjs": "^3.4.0",
     "emailjs-com": "^2.6.4",
-    "gh-pages": "^3.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-hook-form": "^6.13.1",
@@ -52,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
