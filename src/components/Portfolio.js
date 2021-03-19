@@ -1,7 +1,7 @@
 import React from "react";
 import netflix from "../images/covid_2.png";
 import cityGuide from "../images/hidden_gems_ss.png";
-import portfolio from "../images/workout_tracker_ss.png";
+import portfolio from "../images/business_dashboard.png";
 import taskManager from "../images/pizza.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -67,9 +67,9 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
         <p>NoSQL-powered workout tracker which allows the user to view, create, and track daily workouts.  Also features data-driven pie, bar, and line charts for visualization. </p>
-        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://aqueous-reef-38770.herokuapp.com/", "_blank")}>https://aqueous-reef-38770.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://infiniteoo.github.io/react_business_dashboard/", "_blank")}>https://infiniteoo.github.io/react_business_dashboard/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/nosql_workout_tracker/", "_blank")}>https://github.com/infiniteoo/nosql_workout_tracker/</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/react_business_dashboard", "_blank")}>https://github.com/infiniteoo/react_business_dashboard</a>
       </>
     )
     PopupboxManager.open({ content })
