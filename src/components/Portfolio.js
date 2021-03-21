@@ -66,7 +66,7 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-        <p>NoSQL-powered workout tracker which allows the user to view, create, and track daily workouts.  Also features data-driven pie, bar, and line charts for visualization. </p>
+        <p>Randomly generated, data-driven table and bar chart written in React with a dark mode switch. </p>
         <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://infiniteoo.github.io/react_business_dashboard/", "_blank")}>https://infiniteoo.github.io/react_business_dashboard/</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/react_business_dashboard", "_blank")}>https://github.com/infiniteoo/react_business_dashboard</a>
@@ -90,7 +90,7 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={taskManager} alt=" React and Redux Project..." />
         <p>Online pizza ordering website built in React and deployed with Firebase.</p>
-        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://fast-inlet-48607.herokuapp.com/", "_blank")}>https://pizza-2025b.web.app/</a>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://pizza-2025b.web.app/", "_blank")}>https://pizza-2025b.web.app/</a>
         <br />
         <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/homework_week_19_budget_tracker", "_blank")}>https://github.com/infiniteoo/react_pizza</a>
       </>
