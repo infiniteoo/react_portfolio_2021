@@ -7,8 +7,8 @@ const Contacts = () => {
   const { register, handleSubmit, errors } = useForm();
 
   const serviceID = "service_ID";
-  const templateID = "template_ID";
-  const userID = "user_RXtQk9xbkcuxeI8Wr9FD4";
+  const templateID = "template_tdewt89";
+  const userID = "user_W0NJoXF8I7C2vccTuJ8VC";
 
   const onSubmit = (data, r) => {
     sendEmail(
