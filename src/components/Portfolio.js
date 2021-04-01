@@ -1,6 +1,6 @@
 import React from "react";
 import netflix from "../images/covid_2.png";
-import cityGuide from "../images/hidden_gems_ss.png";
+import cityGuide from "../images/ecommerce.png";
 import portfolio from "../images/business_dashboard.png";
 import taskManager from "../images/pizza.png";
 // FONTAWESOME IMPORTS
@@ -43,10 +43,10 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
-        <p>Interactive Google Map with persistent backend and Facebook OAuth authentication.</p>
-        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://ancient-waters-90063.herokuapp.com/", "_blank")}>https://ancient-waters-90063.herokuapp.com/</a>
+        <p>Fully functional E-Commerce website built with React, Commerce.js, Stripe Payment Processing and Material UI.</p>
+        <b>Demo:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://happyhippodemo.netlify.app/", "_blank")}>https://happyhippodemo.netlify.app/</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/google_maps_and_facebook_auth_project2", "_blank")}>https://github.com/infiniteoo/google_maps_and_facebook_auth_project2</a>
+        <b>GitHub:</b> <a className="hyper-link" href="/#" onClick={() => window.open("https://github.com/infiniteoo/react_ecommerce", "_blank")}>https://github.com/infiniteoo/react_ecommerce</a>
       </>
     )
     PopupboxManager.open({ content })
